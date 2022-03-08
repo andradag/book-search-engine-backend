@@ -1,0 +1,30 @@
+{
+  "name": "book-search-engine-backend",
+  "version": "1.0.0",
+  "description": "a fully functioning Google Books API search engine built with a RESTful API, and refactor is a GraphQL API built with Apollo Server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "watch": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andradag/book-search-engine-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andradag/book-search-engine-backend/issues"
+  },
+  "homepage": "https://github.com/andradag/book-search-engine-backend#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
